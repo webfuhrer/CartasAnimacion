@@ -1,0 +1,23 @@
+p{
+			padding:  15px;
+			padding-left:  20px;
+			
+
+		}
+		div{
+			border:  outset gray 4px;
+			width:  200px;
+			background-color: cyan;
+			color:  white;
+			cursor:  pointer;
+		}
+		div:hover
+		{
+			color:  gray;
+			border-style:  inset ;
+
+		}
+p+p{
+		padding-left: 10px;
+
+	}

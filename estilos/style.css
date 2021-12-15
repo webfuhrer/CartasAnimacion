@@ -1,0 +1,226 @@
+body{
+    background-color: green;
+}
+.carta{
+    position: absolute;
+    background: white;
+    color: red;
+    top: 50px;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    border:black solid 2px;
+}
+.numero{
+    font-size: 35px;
+
+}
+.simbolo{
+    font-size: 35px;
+}
+.numeracion{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.numeracioninvertida{
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.palo{
+  font-size: 35px;
+}
+@keyframes carta5{
+    0%{
+        left: 38px;
+        top:60px;
+    }
+    100%{
+        left: 380px;
+        transform: rotate(25deg);
+    }
+
+}
+
+#cinco_corazones{
+    position: absolute;
+    left: 38px;
+    z-index: 40;
+    
+    animation: carta5 4s 2s forwards;
+}
+#cinco_corazones>#palo1{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+#cinco_corazones>#palo2{
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+#cinco_corazones>#palo3{
+    position: absolute;
+    top: 120px;
+    left: 85px;
+}
+#cinco_corazones>#palo4{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+}
+#cinco_corazones>#palo5{
+    position: absolute;
+    top: 160px;
+    left: 120px;
+}
+@keyframes carta2 {
+    0%{
+            left: 38px;
+            top:60px;
+    }
+    100%{
+        left: 60px;
+        transform: rotate(-20deg);
+    }
+    
+}
+#dos_treboles{
+    position: absolute;
+    left: 38px;
+    color: black;
+    animation: carta2 4s  2s forwards;
+   
+    
+}
+#dos_treboles>#palo1{
+    position: absolute;
+    top: 41px;
+    left: 82px;
+}
+#dos_treboles>#palo2{
+    position: absolute;
+    top: 215px;
+    left: 82px;
+}
+@keyframes carta4 {
+    0%{
+        left: 38px;
+        top:60px;
+    }
+    100%{
+        left: 220px;
+    }
+    
+}
+#cuatro_treboles{
+    position: absolute;
+    left: 38px;
+    color: black;
+    z-index: 5;
+    animation: carta4 4s 2s forwards;
+}
+#cuatro_treboles>#palo1{
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+#cuatro_treboles>#palo2{
+    position: absolute;
+    top: 55px;
+    left: 125px;
+}
+#cuatro_treboles>#palo3{
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+#cuatro_treboles>#palo4{
+    position: absolute;
+    top: 190px;
+    left: 125px;
+}
+@keyframes carta3 {
+    0%{
+        left: 38px;
+        top:60px;
+    }
+    100%{
+        left:140px ;
+        transform: rotate(-13deg);
+    }
+    
+}
+#tres_picas{
+    color: black;
+    z-index: 3;
+    left: 38px;
+    animation: carta3 4s 2s forwards;
+}
+#tres_picas>#palo1{
+    position: absolute;
+    top: 25px;
+    left: 82px;
+}
+#tres_picas>#palo2{
+    position: absolute;
+    top: 100px;
+    left: 82px;
+}
+#tres_picas>#palo3{
+    position: absolute;
+    top: 190px;
+    left: 82px;
+}
+@keyframes carta7{
+    0%{left: 38px;
+    top: 60px;}
+    100%{left: 300px;
+        transform: rotate(15deg);
+    }
+}
+#siete_treboles{
+    left: 38px;
+    color: black;
+    z-index: 10;
+    animation: carta7 4s 2s forwards;
+}
+#siete_treboles>#palo1{
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+#siete_treboles>#palo2{
+    position: absolute;
+    top: 55px;
+    left: 125px;
+}
+#siete_treboles>#palo3{
+    position: absolute;
+    top: 109px;
+    left: 87px;
+}
+#siete_treboles>#palo4{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+#siete_treboles>#palo5{
+    position: absolute;
+    top: 150px;
+    left: 125px;
+}
+#siete_treboles>#palo6{
+    position: absolute;
+    top: 205px;
+    left: 50px;
+    transform: rotate(180deg);
+}
+#siete_treboles>#palo7{
+    position: absolute;
+    top: 205px;
+    left: 125px;
+    transform: rotate(180deg);
+}
